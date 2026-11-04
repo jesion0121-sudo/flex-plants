@@ -49,6 +49,7 @@ header{
     color: white;
     position: sticky;
     top: 0px;
+    z-index: 3;
 }
 .logo{
     font-size: 28px;
@@ -153,7 +154,7 @@ gap: 24px;
     color: white;
     font-size: 15px;
     padding: 5px 10px;
-    z-index: 7;
+    z-index: 2;
 }
 .new{
     display: block;
@@ -280,8 +281,8 @@ footer{
 .top{
     position: fixed;
     bottom: 200px;
-    right: 70px;
-    z-index: 6;
+    left: calc(50% + 550px);
+    z-index: 1;
     border: none;
     font-size: 30px;
     background-color: #52796f;
